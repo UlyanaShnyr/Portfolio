@@ -1,6 +1,3 @@
-
-
-
 let menu=document.getElementById('burger-menu');
 let button = document.getElementById('burger-menu-button');
 let linkHome=document.getElementById('nav-home');
