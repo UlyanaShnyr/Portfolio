@@ -1,8 +1,7 @@
 let canvas_element = document.getElementById('canvas_element');
 canvas_element.width=window.innerWidth;
-canvas_element.height=700;
-console.log(canvas_element.offsetHeight)
-console.log(document.getElementById('canvas_element').style.height);
+canvas_element.height=window.innerHeight;
+
 let matrix_context = canvas_element.getContext('2d');
 
 let font = 'arial';
@@ -23,7 +22,7 @@ setInterval(rain, 250);
 
 function rain() {    
    
-matrix_context.fillStyle = 'rgba(255, 255, 255, 0.1)';
+matrix_context.fillStyle = 'rgba(231, 229, 228, 0.05)';
 matrix_context.fillRect(0, 0, canvas_element.width, canvas_element.height);        
 for (let i = 0; i < drops.length; i++) {        
 let char = symbols[Math.floor(Math.random() * symbols.length)];        
