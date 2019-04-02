@@ -9,7 +9,7 @@ let linkAbout=document.getElementById('nav-about');
 let linkContact=document.getElementById('nav-contact');
 let overlay=document.getElementById('burger-menu-overlay');
 button.onclick = function() {
-    menu.classList.toggle('burger-menu-active');   
+    menu.classList.toggle('burger-menu-active');       
 };
 
 linkHome.onclick = function() {
