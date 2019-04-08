@@ -58,48 +58,42 @@ body{
     content: '';
     top:12px;
 }
-.burger-menu-nav{
+.burger-menu-nav,
+.burger-menu-nav::after{
     padding-top: 80px;
     position: fixed;
-    z-index: 20;
-    display: flex;
+    z-index: 20;    
     flex-flow: column;
     width: 50%;
     height: 100%;
     background-color: black;
-    overflow-y: auto;
-  
-    display: none;
-
-}
-.burger-menu-active .burger-menu-nav {
-    display: block;
-    width:50%;
-    animation-name: burger-menu-nav;
-    animation-duration: 2s; 
-
-}
-@keyframes burger-menu-nav {
-    0% {
-        transform: translateX(100%);
-    }
-        
-    100% {
-        transform: translateX(0%);
-    } 
-    
+    overflow-y: auto;  
+    display: none;      
     
 }
-
-
-
 
 
 
 .burger-menu-active .burger-menu-nav{
-right:0;
-
+    display: block;
+    width:50%;
+    animation-name: burger-menu-nav;
+    animation-duration: 2s; 
+    right:0;
 }
+
+@keyframes burger-menu-nav {
+    0% {
+        transform: translateX(100%);        
+    }
+     
+    100% {
+        transform: translateX(0%);             
+    }       
+    
+}
+
+
 
 .burger-menu-link{
     padding: 30px;
@@ -142,6 +136,7 @@ section{
     text-transform: uppercase;
     color: black;
     overflow:hidden;
+    transition: all 3s;
 }
 
 #home{
@@ -152,6 +147,15 @@ section{
 h5 span{
     color:#7f1ae5;
     background-color: linear-gradient(#7f1ae5, #cfafee);
+}
+h5 .autorName{
+   
+    all: initial;
+    font-size: .8em;
+    font-style: oblique;
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+   
 }
 h5{
     text-align: center;
@@ -188,6 +192,6 @@ h5{
     -28px 56px 1px #e4e3e2;
    
 }
-  footer{
+ footer{
    
   }
