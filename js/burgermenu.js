@@ -11,7 +11,8 @@ button.onclick = function() {
 };
 
 linkHome.onclick = function() {
-    menu.classList.toggle('burger-menu-active');   
+    menu.classList.toggle('burger-menu-active');  
+     
 };
 linkProject.onclick = function() {
     menu.classList.toggle('burger-menu-active');   
