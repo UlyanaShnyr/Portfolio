@@ -86,14 +86,9 @@ body{
         
     100% {
         transform: translateX(0%);
-    } 
-    
+    }     
     
 }
-
-
-
-
 
 
 .burger-menu-active .burger-menu-nav{
@@ -128,8 +123,7 @@ right:0;
 
 .burger-menu-active .burger-menu-overlay{
     display: block;
-    background-color:rgb(0, 0, 0,0.5);
-    
+    background-color:rgb(0, 0, 0,0.5);    
 }
 
 section{    
@@ -188,6 +182,4 @@ h5{
     -28px 56px 1px #e4e3e2;
    
 }
-  footer{
-   
-  }
+  
