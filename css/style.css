@@ -72,6 +72,7 @@ body {
     right: -50%;
     transition: 0.9s;    
 }
+
 .burger-menu-active 
 .burger-menu-nav {
     display: block;
@@ -105,7 +106,7 @@ body {
 .burger-menu-active 
 .burger-menu-overlay {
     display: block;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 section {    
     display: flex;
@@ -231,7 +232,7 @@ h5 {
     font-size: 40px;
     margin-left: 100px;    
 }
-.grid-item.item {  
+.grid-item .item {  
       background-color: #737272;
       width: 100%;
 }
@@ -251,7 +252,6 @@ h5 {
     width: 100%; 
     margin-right: 10%
 }
-
 #svg {
     width: 40%;
     margin-left: 10%;   
@@ -265,3 +265,4 @@ h5 {
     background-color: darkgrey;
     text-align: center;
 }
+
