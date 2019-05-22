@@ -1,4 +1,4 @@
 $('#autorName').typeIt({   
-    speed: 100,
+    speed: 80,
     autoStart: false
 });
