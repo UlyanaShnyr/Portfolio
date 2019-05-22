@@ -151,11 +151,25 @@ article .title_project {
    position: absolute;
 }
 #about {
-    text-align: center;
-}
-#about, #contact {
-    height: 400px;
+    text-align: center;  
     margin-top: 500px;
+    padding-top: 0;
+    margin-left: 5%;
+}
+.aboutHead{
+    font-size: .5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.aboutText{
+    font-size: 0.3em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:none;
+    
+}
+#contact {
+    margin-top: 1000px;
     padding-top: 0;
 }
 a {
@@ -231,7 +245,7 @@ h5 {
     font-size: 40px;
     margin-left: 100px;    
 }
-.grid-item.item {  
+.grid-item .item {  
       background-color: #737272;
       width: 100%;
 }
@@ -249,19 +263,150 @@ h5 {
 }
 .animated .mov1 {
     width: 100%; 
-    margin-right: 10%
+    /* margin-right: 10% */
 }
-
 #svg {
     width: 40%;
     margin-left: 10%;   
 }
+#myPhoto{
+    float:left; 
+    width: 40%;
+   
+}
+#myPhoto img{
+    width: 70%
+}
+.container {
+    width: 100%;
+    background-color: transparent;
+    
+  }
+  .containerSkills{
+  font-size: 0.3em;
+  line-height: 40px;
+  color:white;
+  float:left;
+  width: 50%; 
+  padding-left: 100px;
+  padding-top: 5%;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-right: 50px;    
+    color: white;
+    float:left; 
+    background-color:black;
+    font-size: .8em;
+  }
+
+
+
+  
+  .percentages {background-color: #7f1ae5;margin-left: 0; margin-bottom: 10px;}
+  
+
+  .html{width: 90%; animation-name: progressBar90; animation-iteration-count: 1; animation-duration: 3s; }
+  .css {width: 80%; animation-name: progressBar80; animation-iteration-count: 1; animation-duration: 3s;}
+  .js {width: 75%; animation-name: progressBar75; animation-iteration-count: 1; animation-duration: 3s;}
+  .canvas{width: 40%; animation-name: progressBar40; animation-iteration-count: 1; animation-duration: 3s;}
+  .jquery{width: 60%; animation-name: progressBar60; animation-iteration-count: 1; animation-duration: 3s;}
+  .ajax{width: 60%; animation-name: progressBar60; animation-iteration-count: 1; animation-duration: 3s;}
+  .json{width: 60%; animation-name: progressBar60; animation-iteration-count: 1; animation-duration: 3s;}
+  .node{width: 60%; animation-name: progressBar60; animation-iteration-count: 1; animation-duration: 3s;}
+  .react{width: 65%; animation-name: progressBar65; animation-iteration-count: 1; animation-duration: 3s;}
+  .sql{width: 55%; animation-name: progressBar55; animation-iteration-count: 1; animation-duration: 3s;}
+  .bootstrap{width: 90%; animation-name: progressBar90; animation-iteration-count: 1; animation-duration: 3s;}
+  .photoshop{width: 70%; animation-name: progressBar70; animation-iteration-count: 1; animation-duration: 3s;}
+  .git{width: 70%; animation-name: progressBar70; animation-iteration-count: 1; animation-duration: 3s;}
+
+  @keyframes progressBar90 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes progressBar80 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 80%;
+    }
+  }
+
+  @keyframes progressBar75 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 75%;
+    }
+  }
+
+  @keyframes progressBar70 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 70%;
+    }
+  }
+
+  @keyframes progressBar40 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 40%;
+    }
+  }
+  @keyframes progressBar55 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 55%;
+    }
+  }
+  @keyframes progressBar60 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes progressBar65 {
+    0% {
+      width: 20%;
+    }
+    
+    100% {
+      width: 65%;
+    }
+  }
+
+
 .footer {
     position: absolute;
     left: 0;
-    bottom: -400px;
+    bottom: -1000px;
     width: 100%;
     height: 40px;
     background-color: darkgrey;
     text-align: center;
+  
 }
